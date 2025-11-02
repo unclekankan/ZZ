@@ -5,8 +5,16 @@ body {
 	background-color: #f3f5f7;
 }
 
-.head {
+.top {
 	position: fixed;
+	width: 100%;
+	background: white;
+	transition: all 0.5s;
+	transform: translateY(-100px);
+}
+
+.head {
+	/* position: fixed; */
 	left: 14.5%;
 	height: 100px;
 	background-color: #fff;
@@ -177,7 +185,7 @@ body {
 }
 
 .banner {
-	margin-top: 100px;
+	/* margin-top: 100px; */
 	background-color: #0092cb;
 	height: 420px;
 }
