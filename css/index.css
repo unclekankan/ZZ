@@ -1,0 +1,1184 @@
+/* 版心居中 */
+body {
+	padding: .1px;
+	position: relative;
+	background-color: #f3f5f7;
+}
+
+.head {
+	position: fixed;
+	left: 14.5%;
+	height: 100px;
+	background-color: #fff;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1200px;
+	display: flex;
+}
+
+.logo {
+	height: 100px;
+	background-image: url(../images/logo.png);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.lesson:hover {
+	font-family: PingFangSC-Regular;
+	font-size: 19px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #333333;
+	display: inline-block;
+	margin-left: 297px;
+	margin-top: 35px;
+	margin-bottom: 31px;
+	border-bottom: 2px solid #00a4ff;
+	line-height: 35px;
+	width: 54px;
+	height: 35px;
+	text-align: center;
+}
+
+.lesson {
+	font-family: PingFangSC-Regular;
+	font-size: 19px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #333333;
+	display: inline-block;
+	margin-left: 297px;
+	margin-top: 35px;
+	margin-bottom: 31px;
+	/* border-bottom: 2px solid #00a4ff; */
+	line-height: 35px;
+	width: 54px;
+	height: 35px;
+	text-align: center;
+}
+
+.shouye {
+	font-family: PingFangSC-Regular;
+	font-size: 19px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #333333;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 35px;
+	margin-bottom: 31px;
+	/* border-bottom: 2px solid #00a4ff; */
+	line-height: 35px;
+	width: 54px;
+	height: 35px;
+	text-align: center;
+}
+
+.shouye:hover {
+	font-family: PingFangSC-Regular;
+	font-size: 19px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #333333;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 35px;
+	margin-bottom: 31px;
+	border-bottom: 2px solid #00a4ff;
+	line-height: 35px;
+	width: 54px;
+	height: 35px;
+	text-align: center;
+}
+
+.career {
+	font-family: PingFangSC-Regular;
+	font-size: 19px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #333333;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 35px;
+	margin-bottom: 31px;
+	/* border-bottom: 2px solid #00a4ff; */
+	line-height: 35px;
+	width: 92px;
+	height: 35px;
+	text-align: center;
+}
+
+.career:hover {
+	font-family: PingFangSC-Regular;
+	font-size: 19px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #333333;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 35px;
+	margin-bottom: 31px;
+	border-bottom: 2px solid #00a4ff;
+	line-height: 35px;
+	width: 92px;
+	height: 35px;
+	text-align: center;
+}
+
+.search_box {
+	display: flex;
+	padding-left: 19px;
+	margin-left: 90px;
+	margin-top: 29px;
+	border: 0;
+	margin-bottom: 31px;
+	width: 412px;
+	height: 40px;
+	background-color: #f3f5f7;
+	border-radius: 40px;
+}
+
+.search_box input {
+	flex: 1;
+	outline: none;
+	border: 0;
+	background-color: #f3f5f7;
+}
+
+.search_box a {
+	height: 16px;
+	width: 16px;
+	background-image: url(../images/search.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	align-self: center;
+	margin-right: 12px;
+}
+
+.user {
+	display: inline-block;
+	padding-left: 36px;
+	margin-top: 33px;
+	margin-bottom: 37px;
+	margin-left: 30px;
+	width: 116px;
+	height: 30px;
+	background-image: url(../uploads/user.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	color: #6666;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	text-align: center;
+}
+
+.banner {
+	margin-top: 100px;
+	background-color: #0092cb;
+	height: 420px;
+}
+
+.banner_1 {
+	display: flex;
+	margin: 0 auto;
+	background-image: url(../uploads/banner.png);
+	background-repeat: no-repeat;
+	width: 1200px;
+	height: 420px;
+	background-size: contain;
+}
+
+.catalgue {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 20px;
+	width: 191px;
+	height: 420px;
+	background-color: #005576;
+}
+
+.catalgue a {
+	display: inline-block;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: white;
+	background-image: url(../images/more.png);
+	background-position: 141px;
+	background-repeat: no-repeat;
+}
+
+.catalgue a:hover {
+	display: inline-block;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #00a4ff;
+	background-image: url(../images/more.png);
+	background-position: 141px;
+	background-repeat: no-repeat;
+}
+
+.timetable {
+	width: 218px;
+	height: 305px;
+	margin-left: 794px;
+	margin-top: 60px;
+	margin-bottom: 56px;
+	background-color: #209dd5;
+}
+
+.my_table {
+	font-family: PingFangSC-Medium;
+	font-size: 15px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 20px;
+	color: #ffffff;
+	padding-left: 14px;
+	padding-top: 18px;
+	padding-bottom: 9px;
+}
+
+.my_table_1 {
+	width: 218px;
+	height: 257px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.my_table_2 {
+	width: 190px;
+	height: 20px;
+	font-family: PingFangSC-Medium;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: 700;
+	color: #333333;
+	margin-left: 14px;
+	margin-top: 14px;
+	margin-bottom: 8px;
+}
+
+.my_table_studing {
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	line-height: 16px;
+	color: #00a4ff;
+	margin-left: 14px;
+}
+
+.my_table_echarts {
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	line-height: 16px;
+	color: #7d7d7d;
+}
+
+.line_table {
+	width: 190px;
+	height: 1px;
+	background-color: #e0e0e0;
+	margin-left: 14px;
+}
+
+.my_table_API {
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	line-height: 16px;
+	color: #7d7d7d;
+}
+
+.all_lesson {
+	display: block;
+	margin: 14px;
+	width: 190px;
+	height: 32px;
+	background-color: #00a4ff;
+	border-radius: 15px;
+	text-align: center;
+	font-family: PingFangSC-Medium;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 32px;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+
+.suggest {
+	width: 1200px;
+	height: 60px;
+	display: flex;
+	background-color: #ffffff;
+	margin: 11px auto;
+	box-shadow: 0px 1px 2px 0px rgba(211, 211, 211, 0.5);
+	padding-left: 20px;
+}
+
+.suggest_1 {
+	width: 75px;
+	height: 60px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	color: #00a4ff;
+}
+
+.html {
+	display: block;
+	width: 51px;
+	height: 60px;
+	margin-left: 20px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	color: #333333;
+}
+
+.line_suggest {
+	width: 0px;
+	height: 16px;
+	border: solid 1px #e0e0e0;
+	margin: 22px 24px;
+}
+
+.css {
+	display: block;
+	width: 36px;
+	height: 60px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	color: #333333;
+}
+
+.JavaScript {
+	display: block;
+	width: 88px;
+	height: 60px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	color: #333333;
+}
+
+.Node.js {
+	display: block;
+	width: 63px;
+	height: 60px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	color: #333333;
+}
+
+.Ajax {
+	display: block;
+	width: 36px;
+	height: 60px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	color: #333333;
+}
+
+.Vue2 {
+	display: block;
+	width: 58px;
+	height: 60px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	color: #333333;
+}
+
+.Vue3 {
+	display: block;
+	width: 58px;
+	height: 60px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	color: #333333;
+}
+
+.TypeScript {
+	display: block;
+	width: 90px;
+	height: 60px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	color: #333333;
+}
+
+.React {
+	display: block;
+	width: 49px;
+	height: 60px;
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	color: #333333;
+}
+
+.suggest_final {
+	margin: 0px 20px 0px 90px;
+	width: 67px;
+	height: 60px;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 60px;
+	color: #00a4ff;
+}
+
+.overview {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	margin: 0 auto;
+	width: 1200px;
+	height: 601px;
+}
+
+.t {
+	display: inline-block;
+	height: 30px;
+	margin: 0px 1116px 15px 0px;
+	font-family: PingFangSC-Regular;
+	font-size: 21px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 32px;
+	color: #333333;
+}
+
+.course—01 {
+	background-image: url(../uploads/course01.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.course—02 {
+	background-image: url(../uploads/course02.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.course—03 {
+	background-image: url(../uploads/course03.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.course—04 {
+	display: block;
+	background-image: url(../uploads/course04.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.course—05 {
+	background-image: url(../uploads/course05.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.course—06 {
+	background-image: url(../uploads/course06.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.course—07 {
+	background-image: url(../uploads/course07.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.course—08 {
+	background-image: url(../uploads/course08.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.course—09 {
+	background-image: url(../uploads/course09.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.course—10 {
+	background-image: url(../uploads/course10.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.h {
+	margin: 176px 20px 0px;
+	width: 188px;
+	height: 37px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 20px;
+	color: #333333;
+}
+
+.senior {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	margin: 16px 0px 22px 20px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 20px;
+	color: #fa6400;
+}
+
+.peopel {
+	display: inline-block;
+	width: 120px;
+	margin: 16px 20px 22px 0px;
+	height: 20px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #999999;
+}
+
+.font {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 32px auto;
+	width: 1200px;
+	height: 431px;
+	background-color: #f3f5f7;
+}
+
+.font_top {
+	width: 1200px;
+	height: 45px;
+	display: flex;
+}
+
+.font_title {
+	width: 147px;
+	height: 30px;
+	font-family: PingFangSC-Regular;
+	font-size: 21px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 32px;
+	color: #333333;
+}
+
+.font_center {
+	display: flex;
+	justify-content: space-between;
+	width: 308px;
+	height: 23px;
+	margin: 4px 0px 19px 300px;
+	color: #333;
+}
+
+.font_center li a:hover {
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #00a4ff;
+}
+
+.font_center li a {
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #333;
+}
+
+.font_bottom {
+	margin-top: 6px;
+	margin-left: 365px;
+	background-image: url(../images/more.png);
+	background-position: right 5px;
+	background-repeat: no-repeat;
+	width: 76px;
+	height: 20px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 20px;
+	color: #999999;
+}
+
+.font_bottom:hover {
+	margin-top: 6px;
+	margin-left: 365px;
+	background-image: url(../images/more.png);
+	background-position: right 5px;
+	background-repeat: no-repeat;
+	width: 76px;
+	height: 20px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 20px;
+	color: blue;
+}
+
+.font_body {
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	height: 386px;
+	;
+}
+
+.web_left {
+	width: 228px;
+	height: 386px;
+	background-image: url(../uploads/web_left.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.web_body {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	width: 957px;
+	height: 386px;
+}
+
+.web_top {
+	width: 957px;
+	height: 100px;
+	background-image: url(../uploads/web_top.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.web_bottom {
+	display: flex;
+	justify-content: space-between;
+	width: 957px;
+	height: 271px;
+}
+
+.web_1 {
+	background-image: url(../uploads/web01.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.web_2 {
+	background-image: url(../uploads/web02.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.web_3 {
+	background-image: url(../uploads/web03.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.web_4 {
+	background-image: url(../uploads/web04.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.py_title {
+	height: 30px;
+	font-family: PingFangSC-Regular;
+	font-size: 21px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 32px;
+	color: #333333;
+}
+
+.py_center {
+	display: flex;
+	justify-content: space-between;
+	width: 308px;
+	height: 23px;
+	margin: 4px 0px 19px 263px;
+	color: #333;
+}
+
+.py_center li a:hover {
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #00a4ff;
+}
+
+.py_center li a {
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #333;
+}
+
+.py_left {
+	width: 228px;
+	height: 386px;
+	background-image: url(../uploads/python_left.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.py_body {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	width: 957px;
+	height: 386px;
+}
+
+.py_top {
+	width: 957px;
+	height: 100px;
+	background-image: url(../uploads/python_top.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.py_bottom {
+	display: flex;
+	justify-content: space-between;
+	width: 957px;
+	height: 271px;
+}
+
+.py_1 {
+	background-image: url(../uploads/python01.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.py_2 {
+	background-image: url(../uploads/python02.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.py_3 {
+	background-image: url(../uploads/python03.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.py_4 {
+	background-image: url(../uploads/python04.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.ai {
+	margin: 32px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1200px;
+	height: 316px;
+}
+
+.ai_center {
+	display: flex;
+	justify-content: space-between;
+	width: 308px;
+	height: 23px;
+	margin: 4px 0px 19px 305px;
+	color: #333;
+}
+
+.ai_center li a:hover {
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #00a4ff;
+}
+
+.ai_center li a {
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #333;
+}
+
+.ai_1 {
+	background-image: url(../uploads/ai01.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.ai_2 {
+	background-image: url(../uploads/ai02.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.ai_3 {
+	background-image: url(../uploads/ai03.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.ai_4 {
+	background-image: url(../uploads/ai05.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.ai_5 {
+	background-image: url(../uploads/ai06.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.Je_center {
+	display: flex;
+	justify-content: space-between;
+	width: 308px;
+	height: 23px;
+	margin: 4px 0px 19px 309px;
+	color: #333;
+}
+
+.Je_center li a:hover {
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #00a4ff;
+}
+
+.Je_center li a {
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #333;
+}
+
+.Je_1 {
+	background-image: url(../uploads/java04.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.Je_2 {
+	background-image: url(../uploads/java02.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.Je_3 {
+	background-image: url(../uploads/java03.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.Je_4 {
+	background-image: url(../uploads/java04.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.Je_5 {
+	background-image: url(../uploads/java05.png);
+	background-repeat: no-repeat;
+	background-color: #f9fafb;
+	background-size: contain;
+	width: 228px;
+	height: 271px;
+}
+
+.final {
+	display: flex;
+	width: 1920px;
+	height: 273px;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+
+.final_left {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	width: 432px;
+	height: 148px;
+	margin: 60px 0px 65px 250px;
+	overflow: hidden;
+}
+
+.up {
+	width: 432px;
+	height: 33px;
+	margin-top: 65px;
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 17px;
+	color: #666666;
+}
+
+.download {
+	display: block;
+	width: 120px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	margin-top: 14px;
+	background-color: #ffffff;
+	border: solid 1px #00a4ff;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	color: #00a4ff;
+}
+
+.final_2 {
+	width: 80px;
+	height: 151px;
+	margin: 60px 0px 62px 200px;
+	overflow: hidden;
+}
+
+.bt {
+	width: 80px;
+	height: 23px;
+	margin-bottom: 12px;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 23px;
+	color: #333333;
+}
+
+.final .final_2 ul {
+	width: 56px;
+	height: 116px;
+}
+
+.final .final_2 ul li {
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	color: #666666;
+}
+
+.final .final_2 ul li a:hover {
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	color: blue;
+}
+
+.final_3 {
+	width: 112px;
+	height: 151px;
+	margin: 60px 0px 62px 150px;
+	overflow: hidden;
+}
+
+.final .final_3 ul {
+	width: 112px;
+	height: 116px;
+}
+
+.final .final_3 ul li {
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	color: #666666;
+}
+
+.final .final_3 ul li a:hover {
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	color: blue;
+}
+
+.final_4 {
+	width: 64px;
+	height: 79px;
+	margin: 60px 0px 134px 160px;
+	overflow: hidden;
+}
+
+.final .final_4 ul {
+	width: 56px;
+	height: 44px;
+}
+
+.final .final_4 ul li {
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	color: #666666;
+}
+
+.final .final_4 ul li a:hover {
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 24px;
+	color: blue;
+}
+
+.dt {
+	display: none;
+	position: fixed;
+	top: 450px;
+	left: 1450px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 50px;
+	width: 75px;
+	height: 50px;
+	background-color: white;
+	transform: rotate(90deg);
+}
